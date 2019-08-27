@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./app",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "paths": {
+      "@app/services/*": ["app/services/*"],
+      "@app/models/*": ["app/models/*"]
+    },
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  }
+}
